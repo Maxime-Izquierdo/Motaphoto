@@ -1,0 +1,16 @@
+[18-Nov-2024 16:47:41 UTC] Automatic updates starting...
+[18-Nov-2024 16:47:42 UTC] Automatic updates complete.
+[18-Nov-2024 16:55:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[18-Nov-2024 16:55:32 UTC] PHP Stack trace:
+[18-Nov-2024 16:55:32 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[18-Nov-2024 16:55:32 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[18-Nov-2024 16:55:32 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[18-Nov-2024 16:55:32 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[18-Nov-2024 16:55:32 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[18-Nov-2024 16:55:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[18-Nov-2024 16:55:41 UTC] PHP Stack trace:
+[18-Nov-2024 16:55:41 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[18-Nov-2024 16:55:41 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[18-Nov-2024 16:55:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[18-Nov-2024 16:55:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[18-Nov-2024 16:55:41 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
