@@ -14,3 +14,170 @@
 [18-Nov-2024 16:55:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
 [18-Nov-2024 16:55:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
 [18-Nov-2024 16:55:41 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 08:51:48 UTC] Automatic updates starting...
+[20-Nov-2024 08:51:48 UTC]   Automatic plugin updates starting...
+[20-Nov-2024 08:51:48 UTC]   Automatic plugin updates complete.
+[20-Nov-2024 08:51:48 UTC] Automatic updates complete.
+[20-Nov-2024 08:51:57 UTC] PHP Deprecated:  La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible. in C:\wamp64\www\Motaphoto\wp-includes\functions.php on line 6114
+[20-Nov-2024 08:51:57 UTC] PHP Stack trace:
+[20-Nov-2024 08:51:57 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-cron.php:0
+[20-Nov-2024 08:51:57 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_site_health_scheduled_check', $args = []) C:\wamp64\www\Motaphoto\wp-cron.php:191
+[20-Nov-2024 08:51:57 UTC] PHP   3. WP_Hook->do_action($args = []) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:565
+[20-Nov-2024 08:51:57 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 08:51:57 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 08:51:57 UTC] PHP   6. WP_Site_Health->perform_test($callback = [0 => class WP_Site_Health { private $is_acceptable_mysql_version = TRUE; private $is_recommended_mysql_version = TRUE; public $is_mariadb = FALSE; private $mysql_server_version = '8.3.0'; private $mysql_required_version = '5.5'; private $mysql_recommended_version = '8.0'; private $mariadb_recommended_version = '10.5'; public $php_memory_limit = '512M'; public $schedules = [...]; public $crons = [...]; public $last_missed_cron = 'recovery_mode_clean_expired_keys'; public $last_late_cron = NULL; private $timeout_missed_cron = -300; private $timeout_late_cron = 0 }, 1 => 'get_test_https_status']) C:\wamp64\www\Motaphoto\wp-admin\includes\class-wp-site-health.php:3240
+[20-Nov-2024 08:51:57 UTC] PHP   7. WP_Site_Health->get_test_https_status() C:\wamp64\www\Motaphoto\wp-admin\includes\class-wp-site-health.php:194
+[20-Nov-2024 08:51:57 UTC] PHP   8. wp_is_https_supported() C:\wamp64\www\Motaphoto\wp-admin\includes\class-wp-site-health.php:1519
+[20-Nov-2024 08:51:57 UTC] PHP   9. wp_update_https_detection_errors() C:\wamp64\www\Motaphoto\wp-includes\https-detection.php:75
+[20-Nov-2024 08:51:57 UTC] PHP  10. _deprecated_function($function_name = 'wp_update_https_detection_errors', $version = '6.4.0', $replacement = *uninitialized*) C:\wamp64\www\Motaphoto\wp-includes\deprecated.php:5990
+[20-Nov-2024 08:51:57 UTC] PHP  11. wp_trigger_error($function_name = '', $message = 'La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:5579
+[20-Nov-2024 08:51:57 UTC] PHP  12. trigger_error($message = 'La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:6114
+[20-Nov-2024 08:52:51 UTC] PHP Deprecated:  La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place. in C:\wamp64\www\Motaphoto\wp-includes\functions.php on line 6114
+[20-Nov-2024 08:52:51 UTC] PHP Stack trace:
+[20-Nov-2024 08:52:51 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin.php:0
+[20-Nov-2024 08:52:51 UTC] PHP   2. do_action($hook_name = 'admin_init') C:\wamp64\www\Motaphoto\wp-admin\admin.php:175
+[20-Nov-2024 08:52:51 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 08:52:51 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 08:52:51 UTC] PHP   5. Elementor\App\App->admin_init('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 08:52:51 UTC] PHP   6. Elementor\App\App->render() C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\app.php:91
+[20-Nov-2024 08:52:51 UTC] PHP   7. require() C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\app.php:116
+[20-Nov-2024 08:52:51 UTC] PHP   8. wp_print_styles($handles = *uninitialized*) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\view.php:25
+[20-Nov-2024 08:52:51 UTC] PHP   9. do_action($hook_name = 'wp_print_styles') C:\wamp64\www\Motaphoto\wp-includes\functions.wp-styles.php:57
+[20-Nov-2024 08:52:51 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 08:52:51 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 08:52:51 UTC] PHP  12. print_emoji_styles('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 08:52:51 UTC] PHP  13. _deprecated_function($function_name = 'print_emoji_styles', $version = '6.4.0', $replacement = 'wp_enqueue_emoji_styles') C:\wamp64\www\Motaphoto\wp-includes\deprecated.php:5916
+[20-Nov-2024 08:52:51 UTC] PHP  14. wp_trigger_error($function_name = '', $message = 'La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:5579
+[20-Nov-2024 08:52:51 UTC] PHP  15. trigger_error($message = 'La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:6114
+[20-Nov-2024 09:30:22 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Nov-2024 09:30:22 UTC] PHP Stack trace:
+[20-Nov-2024 09:30:22 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[20-Nov-2024 09:30:22 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[20-Nov-2024 09:30:22 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:30:22 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:30:22 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:35:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Nov-2024 09:35:32 UTC] PHP Stack trace:
+[20-Nov-2024 09:35:32 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[20-Nov-2024 09:35:32 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[20-Nov-2024 09:35:32 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:35:32 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:35:32 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:42:37 UTC] PHP Warning:  Undefined array key "column" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 16
+[20-Nov-2024 09:42:37 UTC] PHP Stack trace:
+[20-Nov-2024 09:42:37 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:42:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:42:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:42:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:42:37 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:42:37 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095752', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:42:37 UTC] PHP Warning:  Undefined array key "url" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 17
+[20-Nov-2024 09:42:37 UTC] PHP Stack trace:
+[20-Nov-2024 09:42:37 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:42:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:42:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:42:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:42:37 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:42:37 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095752', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:42:58 UTC] PHP Warning:  Undefined array key "column" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 16
+[20-Nov-2024 09:42:58 UTC] PHP Stack trace:
+[20-Nov-2024 09:42:58 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:42:58 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:42:58 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:42:58 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:42:58 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:42:58 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095769', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:42:58 UTC] PHP Warning:  Undefined array key "url" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 17
+[20-Nov-2024 09:42:58 UTC] PHP Stack trace:
+[20-Nov-2024 09:42:58 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:42:58 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:42:58 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:42:58 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:42:58 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:42:58 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095769', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:43:48 UTC] PHP Warning:  Undefined array key "column" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 16
+[20-Nov-2024 09:43:48 UTC] PHP Stack trace:
+[20-Nov-2024 09:43:48 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:43:48 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:43:48 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:43:48 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:43:48 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:43:48 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095827', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:43:48 UTC] PHP Warning:  Undefined array key "url" in C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\items\js.php on line 17
+[20-Nov-2024 09:43:48 UTC] PHP Stack trace:
+[20-Nov-2024 09:43:48 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:0
+[20-Nov-2024 09:43:48 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_js_log') C:\wamp64\www\Motaphoto\wp-admin\admin-ajax.php:192
+[20-Nov-2024 09:43:48 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:43:48 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:43:48 UTC] PHP   5. Elementor\Core\Logger\Manager->js_log('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:43:48 UTC] PHP   6. Elementor\Core\Logger\Items\JS->__construct($args = ['type' => 'error', 'timestamp' => '1732095827', 'message' => 'Cannot read properties of null (reading \'clone\')']) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\core\logger\manager.php:151
+[20-Nov-2024 09:45:30 UTC] PHP Deprecated:  La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place. in C:\wamp64\www\Motaphoto\wp-includes\functions.php on line 6114
+[20-Nov-2024 09:45:30 UTC] PHP Stack trace:
+[20-Nov-2024 09:45:30 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\admin.php:0
+[20-Nov-2024 09:45:30 UTC] PHP   2. do_action($hook_name = 'admin_init') C:\wamp64\www\Motaphoto\wp-admin\admin.php:175
+[20-Nov-2024 09:45:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:45:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:45:30 UTC] PHP   5. Elementor\App\App->admin_init('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:45:30 UTC] PHP   6. Elementor\App\App->render() C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\app.php:91
+[20-Nov-2024 09:45:30 UTC] PHP   7. require() C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\app.php:116
+[20-Nov-2024 09:45:30 UTC] PHP   8. wp_print_styles($handles = *uninitialized*) C:\wamp64\www\Motaphoto\wp-content\plugins\elementor\app\view.php:25
+[20-Nov-2024 09:45:30 UTC] PHP   9. do_action($hook_name = 'wp_print_styles') C:\wamp64\www\Motaphoto\wp-includes\functions.wp-styles.php:57
+[20-Nov-2024 09:45:30 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:45:30 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:45:30 UTC] PHP  12. print_emoji_styles('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:45:30 UTC] PHP  13. _deprecated_function($function_name = 'print_emoji_styles', $version = '6.4.0', $replacement = 'wp_enqueue_emoji_styles') C:\wamp64\www\Motaphoto\wp-includes\deprecated.php:5916
+[20-Nov-2024 09:45:30 UTC] PHP  14. wp_trigger_error($function_name = '', $message = 'La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:5579
+[20-Nov-2024 09:45:30 UTC] PHP  15. trigger_error($message = 'La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place.', $error_level = 16384) C:\wamp64\www\Motaphoto\wp-includes\functions.php:6114
+[20-Nov-2024 09:47:14 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Nov-2024 09:47:14 UTC] PHP Stack trace:
+[20-Nov-2024 09:47:14 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[20-Nov-2024 09:47:14 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[20-Nov-2024 09:47:14 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:47:14 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:47:14 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:47:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Nov-2024 09:47:26 UTC] PHP Stack trace:
+[20-Nov-2024 09:47:26 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[20-Nov-2024 09:47:26 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[20-Nov-2024 09:47:26 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:47:26 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:47:26 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[20-Nov-2024 09:47:38 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Nov-2024 09:47:38 UTC] PHP Stack trace:
+[20-Nov-2024 09:47:38 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[20-Nov-2024 09:47:38 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[20-Nov-2024 09:47:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[20-Nov-2024 09:47:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[20-Nov-2024 09:47:38 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[27-Nov-2024 13:26:34 UTC] Automatic updates starting...
+[27-Nov-2024 13:26:34 UTC]   Automatic plugin updates starting...
+[27-Nov-2024 13:26:34 UTC]   Automatic plugin updates complete.
+[27-Nov-2024 13:26:35 UTC] Automatic updates complete.
+[27-Nov-2024 14:05:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[27-Nov-2024 14:05:41 UTC] PHP Stack trace:
+[27-Nov-2024 14:05:41 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[27-Nov-2024 14:05:41 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[27-Nov-2024 14:05:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[27-Nov-2024 14:05:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[27-Nov-2024 14:05:41 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[27-Nov-2024 14:13:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[27-Nov-2024 14:13:59 UTC] PHP Stack trace:
+[27-Nov-2024 14:13:59 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[27-Nov-2024 14:13:59 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[27-Nov-2024 14:13:59 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[27-Nov-2024 14:13:59 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[27-Nov-2024 14:13:59 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[27-Nov-2024 14:54:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[27-Nov-2024 14:54:05 UTC] PHP Stack trace:
+[27-Nov-2024 14:54:05 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[27-Nov-2024 14:54:05 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[27-Nov-2024 14:54:05 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[27-Nov-2024 14:54:05 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[27-Nov-2024 14:54:05 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324
+[27-Nov-2024 14:54:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\Motaphoto\wp-includes\class-wp-customize-widgets.php on line 923
+[27-Nov-2024 14:54:10 UTC] PHP Stack trace:
+[27-Nov-2024 14:54:10 UTC] PHP   1. {main}() C:\wamp64\www\Motaphoto\wp-admin\customize.php:0
+[27-Nov-2024 14:54:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\Motaphoto\wp-admin\customize.php:306
+[27-Nov-2024 14:54:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\plugin.php:517
+[27-Nov-2024 14:54:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:348
+[27-Nov-2024 14:54:10 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\Motaphoto\wp-includes\class-wp-hook.php:324

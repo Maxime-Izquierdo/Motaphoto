@@ -7,3 +7,97 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: motaphoto
 */
+
+/* Header global */
+.site-header {
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 146px;
+}
+
+
+.site-header .logo img {
+    width: 216px;
+    height: 14px;
+    object-fit: contain;
+}
+
+
+.site-header .main-navigation {
+    display: flex;
+    gap: 45px;
+}
+
+.site-header .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 45px;
+}
+
+.site-header .menu li {
+    display: inline;
+}
+
+.site-header .menu li a {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.site-header .menu li a:hover {
+    font-weight: 700;
+}
+
+/* Footer global */
+.site-footer {
+    width: 1440px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 86px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 86px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu li a {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-menu li a:hover {
+    font-weight: 700;
+}
